@@ -1,0 +1,24 @@
+{
+  "name": "online-house-rental",
+  "version": "1.0.0",
+  "description": "an app that helps ease house search in a particular area",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.15.1",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmanuelkolawole4/online-house-rental.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmanuelkolawole4/online-house-rental/issues"
+  },
+  "homepage": "https://github.com/emmanuelkolawole4/online-house-rental#readme"
+}
