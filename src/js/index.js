@@ -1,8 +1,5 @@
 $(document).ready(function() {
-    function validateEmail(emailValue) {
-        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(emailValue);
-      }
+
     $('#register').click((e) => {
         e.preventDefault();
 
@@ -10,7 +7,7 @@ $(document).ready(function() {
         const lastNameValue = $('#lastname').val();
         const emailValue = $('#email').val();
         const passwordValue = $('#password').val();
-        const confirmPasswordValue = $('#firstname').val();
+        const confirmPasswordValue = $('#confirmpassword').val();
         const data = {
             firstname: firstNameValue,
             lastname: lastNameValue,
