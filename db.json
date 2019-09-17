@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first-name": "Folahanmi",
+      "last-name": "Kolawole",
+      "email": "emmanuelkolawole4@gmail.com",
+      "username": "folahanmi1",
+      "password": "folahanmi1@",
+      "confirm-password": "folahanmi1@"
+    },
+    {
+      "firstname": "fola",
+      "lastname": "fola",
+      "email": "fola",
+      "username": "fola",
+      "password": "fola",
+      "confirmpassword": "fola",
+      "id": 2
+    },
+    {
+      "firstname": "jesus",
+      "lastname": "jesus",
+      "email": "jesus",
+      "password": "jesus",
+      "confirmpassword": "jesus",
+      "id": 3
+    },
+    {
+      "firstname": "ewdf",
+      "lastname": "odovwoif",
+      "email": "ohwoifh",
+      "password": "yyy",
+      "confirmpassword": "ewdf",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

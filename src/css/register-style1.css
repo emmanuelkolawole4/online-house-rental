@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+    background: #fff;
+    font-family: open sans, sans-serif;
+    /* font-size: 13px; */
+    outline: none;
+}
+
+#page {
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    background: url(../images/register-bg.jpg) center top / cover no-repeat fixed;
+}
+
+#page .site-wrapper {
+    padding: 0px;
+    background: transparent;
+    margin: 0px;
+}
+
+#page .bg-o {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.8);
+}
+
+/* #page .panel {
+    position: relative;
+    z-index: 2;
+    margin: 5% auto 0;
+    width: 90%;
+    max-width: 400px;
+    padding: 0;
+} */
+
+.form-container {
+    background-color: #EBEBEB;
+    padding: 30px;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+
+.placeholder {
+    padding: 7px 10px;
+    width: 100%;
+    border: 1px solid #BABABA;
+    border-radius: 3px;
+    outline: #000000;
+}
+
+.register {
+    width: 100%;
+    padding: 8px 10px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid rgb(247, 151, 28);
+    background: rgb(247, 151, 28);
+    font-weight: 700;
+    border-radius: 5px;
+    border-bottom: 3px solid #000000;
+}
+
+.register:hover {
+    background: #fff;
+    color: rgb(247, 151, 28);
+}
+
+#page .already-logged-in {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    background: rgba(0,0,0,0.6);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+    color: gray;
+}
+
+#page .already-logged-in a {
+    color: rgb(247, 151, 28);
+    display: inline-block;
+    padding-left: 5px;
+    text-decoration: none;
+}
