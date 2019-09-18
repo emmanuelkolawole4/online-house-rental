@@ -2,97 +2,36 @@
   "users": [
     {
       "id": 1,
-      "first-name": "Folahanmi",
-      "last-name": "Kolawole",
+      "firstname": "Folahanmi",
+      "lastname": "Kolawole",
       "email": "emmanuelkolawole4@gmail.com",
-      "username": "folahanmi1",
       "password": "folahanmi1@",
       "confirm-password": "folahanmi1@"
     },
     {
-      "firstname": "fola",
-      "lastname": "fola",
-      "email": "fola",
-      "username": "fola",
-      "password": "fola",
-      "confirmpassword": "fola",
-      "id": 2
-    },
-    {
-      "firstname": "jesus",
-      "lastname": "jesus",
-      "email": "jesus",
-      "password": "jesus",
-      "confirmpassword": "jesus",
-      "id": 3
-    },
-    {
-      "firstname": "ewdf",
-      "lastname": "odovwoif",
-      "email": "ohwoifh",
-      "password": "yyy",
-      "confirmpassword": "ewdf",
-      "id": 4
-    },
-    {
-      "firstname": "yaya",
-      "lastname": "yaya",
-      "email": "yaya",
-      "password": "yaya",
-      "confirmpassword": "yaya",
-      "id": 5
-    },
-    {
-      "firstname": "bello",
-      "lastname": "bello",
-      "email": "bello@gmail.com",
-      "password": "bello",
-      "confirmpassword": "bello",
-      "id": 6
-    },
-    {
-      "firstname": "aaa",
-      "lastname": "aaa",
-      "email": "aaa",
-      "password": "aaa",
-      "confirmpassword": "aaa",
-      "id": 7
-    },
-    {
-      "firstname": "yyyy",
-      "lastname": "yyyy",
-      "email": "yyyy",
-      "password": "yyyy",
-      "confirmpassword": "yyyy",
-      "id": 8
-    },
-    {
-      "firstname": "qqqwq",
-      "lastname": "qqqwqw",
-      "email": "wdww",
-      "password": "12345",
-      "confirmpassword": "12345",
-      "id": 9
-    },
-    {
-      "email": "emanuelkola@gmail.com",
-      "password": "fola",
-      "id": 10
-    },
-    {
-      "firstname": "Folahanmi",
+      "firstname": "Emmanuel",
       "lastname": "Kolawole",
-      "email": "emmanuelkolawole4@gmail.com",
-      "password": "6jKddz2Jn6qHqs4",
-      "confirmpassword": "6jKddz2Jn6qHqs4",
-      "id": 11
+      "email": "teenytiny94@gmail.com",
+      "password": "emmanuel1@",
+      "confirmpassword": "emmanuel1@",
+      "id": 2
     }
   ],
-  "comments": [
+  "properties": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "propertytype": "Flat",
+      "rooms": 2
+    },
+    {
+      "id": 2,
+      "propertytype": "Bungalow",
+      "rooms": 3
+    },
+    {
+      "id": 3,
+      "propertytype": "Duplex",
+      "rooms": 5
     }
   ],
   "profile": {
