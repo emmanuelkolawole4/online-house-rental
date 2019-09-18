@@ -15,6 +15,14 @@
       "password": "emmanuel1@",
       "confirmpassword": "emmanuel1@",
       "id": 2
+    },
+    {
+      "firstname": "Yahaya",
+      "lastname": "Yohanna",
+      "email": "yahayayohanna@gmail.com",
+      "password": "yahaya",
+      "confirmpassword": "yahaya",
+      "id": 3
     }
   ],
   "properties": [
