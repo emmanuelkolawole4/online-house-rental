@@ -65,6 +65,14 @@ body {
     outline: #000000;
 }
 
+.placeholder1 {
+    padding: 7px 10px;
+    width: 40%;
+    border: 1px solid #BABABA;
+    border-radius: 3px;
+    outline: #000000;
+}
+
 .register {
     width: 100%;
     padding: 8px 10px;
@@ -75,11 +83,32 @@ body {
     font-weight: 700;
     border-radius: 5px;
     border-bottom: 3px solid #000000;
+    outline: none;
+}
+
+.listprop {
+    width: 20%;
+    padding: 8px 10px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid rgb(247, 151, 28);
+    background: rgb(247, 151, 28);
+    font-weight: 700;
+    border-radius: 5px;
+    border-bottom: 3px solid #000000;
+    outline: none;
+}
+
+.listprop:hover {
+    background: #fff;
+    color: rgb(247, 151, 28);
+    outline: none;
 }
 
 .register:hover {
     background: #fff;
     color: rgb(247, 151, 28);
+    outline: none;
 }
 
 #page .already-logged-in {
@@ -218,6 +247,7 @@ body {
 .user-edit .user-content {
     background: #ebebeb;
     padding: 15px 0;
+    /* margin-bottom: 20px; */
 }
 
 .user-edit .form-wrap {
@@ -248,4 +278,14 @@ body {
     padding: 0 0 20px;
     border: none;
     margin: 0;
+}
+
+.listproperty {
+    padding: 10px;
+}
+
+.select-property {
+    padding: 10px;
+    width: 40%;
+    outline: none;
 }

@@ -22,7 +22,7 @@ body {
     /* font-size: 13px; */
     border: 2px solid rgb(247, 151, 28);
     border-radius: 30px;
-    width: 100px;
+    /* width: 100px; */
 }
 
 .wrapper {
@@ -37,6 +37,34 @@ body {
 
 #landing {
     background-color: #fff;
+}
+
+#landing .icon {
+    width: 110px;
+    margin: 30px auto 0;
+}
+
+#landing .icon img {
+    max-width: 100%;
+    height: auto;
+}
+
+.landing-icons-sprite.icon-hands {
+    background-position: 0 50%;
+}
+
+.landing-icons-sprite.icon-connect {
+    background-position: 0 0%;
+}
+
+.landing-icons-sprite.icon-home {
+    background-position: 0 100%;
+}
+
+.landing-icons-sprite {
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url('../images/icons.png');
 }
 
 .hero {

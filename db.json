@@ -23,26 +23,73 @@
       "password": "yahaya",
       "confirmpassword": "yahaya",
       "id": 3
+    },
+    {
+      "firstname": "Damilare",
+      "lastname": "Kolawole",
+      "email": "emmanuelkolawole4@gmail.com",
+      "password": "121212",
+      "confirmpassword": "121212",
+      "id": 4
     }
   ],
   "properties": [
     {
       "id": 1,
       "propertytype": "Flat",
-      "rooms": 2
+      "rooms": 1,
+      "location": "1, Decagon Road, Decagon"
     },
     {
       "id": 2,
       "propertytype": "Bungalow",
-      "rooms": 3
+      "rooms": 2,
+      "location": "2, Decagon Road, Decagon"
     },
     {
       "id": 3,
       "propertytype": "Duplex",
-      "rooms": 5
+      "rooms": 3,
+      "location": "3, Decagon Road, Decagon"
+    },
+    {
+      "propertytype": "Duplex",
+      "rooms": "3",
+      "location": "ibadan",
+      "id": 4
+    },
+    {
+      "propertytype": "Bungalow",
+      "rooms": "6",
+      "location": "Lagos",
+      "id": 5
+    },
+    {
+      "propertytype": "Apartment Hotel",
+      "rooms": "2",
+      "location": "Kaduna",
+      "id": 6
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "defaultproperties": [
+    {
+      "propertytypes": [
+        "Bungalow",
+        "Flat",
+        "Duplex",
+        "Self-Contain",
+        "Loft",
+        "Studio",
+        "Penthouse Apartment",
+        "Low-rise Building",
+        "Railroad Apartment",
+        "High-rise Building",
+        "Basement Apartment",
+        "Single-room Occupancy",
+        "Apartment Hotel",
+        "Condo",
+        "Officetel"
+      ]
+    }
+  ]
 }
