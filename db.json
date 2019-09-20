@@ -33,7 +33,20 @@
       "id": 4
     }
   ],
-  "properties": [],
+  "properties": [
+    {
+      "propertytype": "Self-Contain",
+      "rooms": "1",
+      "location": "Ogun",
+      "id": 4
+    },
+    {
+      "propertytype": "Flat",
+      "rooms": "4",
+      "location": "Kaduna",
+      "id": 5
+    }
+  ],
   "defaultproperties": [
     {
       "propertytypes": [

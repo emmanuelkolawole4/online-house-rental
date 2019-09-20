@@ -26,7 +26,7 @@ $(document).ready(function() {
             alert('please ensure password and confirm password fields are the same');
         }
         else {
-            $.post("http://localhost:3000/users", data, location.replace('profile.html'));
+            $.post("http://localhost:3000/users", data, location.reload());
         }
     })
 
@@ -93,7 +93,7 @@ $(document).ready(function() {
                 method: 'DELETE',
                 success: function(e) {
                     alert("Deleted");
-                    location.href = 'profile.html';
+                    window.location.replace('profile.html');
                 }
             })
         })
@@ -122,7 +122,10 @@ $(document).ready(function() {
             rooms: numberOfRoomsValue,
             location: locationValue
         }
-        $.post("http://localhost:3000/properties", newData, alert('property added'));
+        $.post("http://localhost:3000/properties", newData, function() {
+            alert('property added');
+            window.location.replace('profile.html');
+        });
     })
     
 })
