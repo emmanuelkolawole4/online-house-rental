@@ -33,26 +33,7 @@
       "id": 4
     }
   ],
-  "properties": [
-    {
-      "id": 1,
-      "propertytype": "Flat",
-      "rooms": 1,
-      "location": "1, Decagon Road, Decagon"
-    },
-    {
-      "id": 2,
-      "propertytype": "Bungalow",
-      "rooms": 2,
-      "location": "2, Decagon Road, Decagon"
-    },
-    {
-      "propertytype": "Loft",
-      "rooms": "4",
-      "location": "Kaduna",
-      "id": 3
-    }
-  ],
+  "properties": [],
   "defaultproperties": [
     {
       "propertytypes": [
