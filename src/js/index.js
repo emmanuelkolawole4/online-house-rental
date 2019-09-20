@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+   
+
+
+
     // Sign Up
     $('#register').click((e) => {
         e.preventDefault();
@@ -77,9 +82,21 @@ $(document).ready(function() {
             <div class="images-large">
                 
             </div>
-            <a style="color: #999; text-decoration: none; margin-top: 100px;" class="hov font-weight-bold" href="singleproperty.html">More Details</a>
+            <button id="remove" class="btn login remove font-weight-bold mt-4">Remove Property</button>
+            <button id="update" class="btn login font-weight-bold mt-4 ml-5">Update Property</button>
         </div>
-        `);          
+        `);       
+        
+        $("#remove").on('click', (e) => {
+            $.ajax({
+                url: `http://localhost:3000/properties/${urlId}`,
+                method: 'DELETE',
+                success: function(e) {
+                    alert("Deleted");
+                    location.href = 'profile.html';
+                }
+            })
+        })
     })
 
     // Populate Select Property list from the backend
@@ -107,6 +124,5 @@ $(document).ready(function() {
         }
         $.post("http://localhost:3000/properties", newData, alert('property added'));
     })
-    
     
 })
